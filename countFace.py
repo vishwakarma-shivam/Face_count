@@ -1,5 +1,5 @@
 import cv2
-classifier= cv2.CascadeClassifier('data.xml')
+classifier= cv2.CascadeClassifier('data2.xml')
 
 def countFaces(img):
     grayImg=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)

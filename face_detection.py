@@ -1,6 +1,6 @@
 import cv2
 
-classifier = cv2.CascadeClassifier('data.xml')
+classifier = cv2.CascadeClassifier('data2.xml')
 
 cap= cv2.VideoCapture(0)
 
