@@ -1,0 +1,6 @@
+numpy
+uvicorn
+fastapi
+opencv-python
+CMake
+dlib
