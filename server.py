@@ -13,7 +13,7 @@ async def countFace(ref,img64):
 
 
 if __name__=='__main__':
-    uvicorn.run(app)
+    uvicorn.run("server:app")
 
 
     
