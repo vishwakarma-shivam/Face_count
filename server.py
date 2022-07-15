@@ -22,8 +22,8 @@ async def getCountByUrl(info:Request):
 
 
 if __name__=='__main__':
-    uvicorn.run(app)
-    #uvicorn.run("server:app", host='0.0.0.0', port=(int)(os.environ.get('PORT', 5000)))
+    #uvicorn.run(app)
+    uvicorn.run("server:app", host='0.0.0.0', port=(int)(os.environ.get('PORT', 5000)))
 
 
     
