@@ -13,9 +13,17 @@ For installation run:
 ### API's
 
 - **countFace**: Requires two keys, refrence id, base 64 image.
-    {
-        
-    }
+    
+        {
+        "ref": <REFERENCE_ID>
+        "img": "BASE_64_Image"
+        }
 
 - **getCountByUrl**: Requires two keys, reference id and image path.
+
+        {
+        "ref": <REFERENCE_ID>
+        "url": "IMAGE_URL"
+        }
+
 
