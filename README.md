@@ -4,7 +4,7 @@ Helps to count number of faces in an Image.
 
 ### Requirements: 
 
-Can be found in `requirements.txt` file.
+Requirements can be found in `requirements.txt` file.
 
 For installation run:
 
@@ -15,14 +15,14 @@ For installation run:
 - **countFace**: Requires two keys, refrence id, base 64 image.
     
         {
-        "ref": <REFERENCE_ID>
+        "ref": <REFERENCE_ID>,
         "img": "BASE_64_Image"
         }
 
 - **getCountByUrl**: Requires two keys, reference id and image path.
 
         {
-        "ref": <REFERENCE_ID>
+        "ref": <REFERENCE_ID>,
         "url": "IMAGE_URL"
         }
 
